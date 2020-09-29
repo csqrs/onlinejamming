@@ -38,7 +38,7 @@ Thankfully there are some platforms that make disabling these relatively easy, n
 
 ## Teleconference platforms
 
-# Jitsi
+### Jitsi
 
 This is an open source platform that is very easy to use, for participants, as well as relatively easy to host yourself. It's what I landed on as my platform of choice mostly because I'm a sysadmin and have the resources to be able to host it myself, and wanted to have a platform that would be relatively easy for people with little technical skill and/or less bandwidth to use.
 
