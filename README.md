@@ -98,12 +98,14 @@ If you have ever listened to online streaming radio, this is what you are using.
 * Set up a server ([ Icecast ](https://icecast.org/) or [ Shoutcast ](https://www.shoutcast.com/))
    * Or find one that will host your streams, like a community radio station.
 * Get someone else also to set up a stream to some server, doesn't have to be the same one.
-* Open your partner's stream in your browser
+* Open your partner's stream in your browser.
 * Jam along!
 
 You can use OBS to mix multiple streams. Real radio stations do just that.
 
 The drawback: there can be several seconds, up to e.g. 15, between when you play and when the stream arrives at its destination. However, this is really the grand daddy: Michael and Mannlicher Carcano have been doing this for decades...
+
+I was really really hopeful about this possiblity, because it is so relatively simple to set up. But I decided to move on when I discovered what the latency would be, not for ever, but for now.
 
 ### SuperCollider
 
