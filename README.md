@@ -93,8 +93,8 @@ This is a powerful online chat platform for gamers. It's primary purpose is to b
 If you have ever listened to online streaming radio, this is what you are using. The server hosts web links that function like pipes that stream audio from the source to the destination. In general the server does very little processing and functions mostly as a hub. The issue for using this for jamming is latency.
 
 * Get a streaming tool
- * [ Butt ](https://danielnoethen.de/butt/)
- * [ Liquid Soap ](https://www.liquidsoap.info/)
+   * [ Butt ](https://danielnoethen.de/butt/)
+   * [ Liquid Soap ](https://www.liquidsoap.info/)
 * Set up a server ([ Icecast ](https://icecast.org/) or [ Shoutcast ](https://www.shoutcast.com/))
 * Get someone else also to set up a stream to some server, doesn't have to be the same one.
 * Open your partner's stream in your browser
