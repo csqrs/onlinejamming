@@ -24,6 +24,8 @@ On the other hand, running a Jitsi service on your own server in your own town c
 
 There are a number of excellent discussions of latency, audio quality and whatnot on line, so I won't go into the details here. See the resources section below. What we will do in this workshop is try and show you what it's actually like.
 
+[ Introduce the participants: [Ellen Waterman](http://www.ellenwaterman.ca/), [Michael Waterman](https://mannlichercarcano.blogspot.com/), Wallace Hammond, Craig Squires. ]
+
 ## Introduction to the platforms
 
 Many teleconference tools are capable, technically, of doing what we need, though virtually all have done very little to target music playing as a 'market'. The underlying technology of [many platforms](https://www.webrtcworld.com/webrtc-list.aspx) is [WebRTC](https://webrtc.org/), with the amazing [Opus](https://opus-codec.org/) codec for sound. Mumble/Murmur uses Opus too. But the target user base is people who talk. And this means that the default configuration does many things to the streams that make playing music hard:
@@ -42,9 +44,9 @@ Thankfully there are some platforms that make disabling these relatively easy, n
 
 This is an open source platform that is very easy to use, for participants, as well as relatively easy to host yourself. It's what I landed on as my platform of choice mostly because I'm a sysadmin and have the resources to be able to host it myself, and wanted to have a platform that would be relatively easy for people with little technical skill and/or less bandwidth to use.
 
-One of the rules of both latency and audio quality is, the more bandwidth you have the better. In fact it's often said that it's not worth trying to do this over WiFi, for example. But the Opus codec is capable of incredibly powerful adaptive encoding, which means that on the fly, it adjusts the quality of the audio stream (k/s) seamlessly, and independently for each participant. We have done some jams where at least one of the participants was on WiFi and it was fine.
+One of the rules of both latency and audio quality is, the more bandwidth you have the better. In fact it's often said that it's not worth trying to do this over WiFi, for example. But the Opus codec is capable of incredibly powerful adaptive encoding, which means that on the fly, it adjusts the quality of the audio stream (kb/s) seamlessly, and independently for each participant. We have done some jams where at least one of the participants was on WiFi and it was fine.
 
-In order to demonstrate the effect of how close you are to your server, however, we are going to do two short jams, one on my private server and one on the publicly available servers, hosted somewhere in the US. This will also demonstrate how to disable the above audio processing. [ Introduce the participants: [Ellen Waterman](http://www.ellenwaterman.ca/), [Michael Waterman](https://mannlichercarcano.blogspot.com/), Wallace Hammond, Craig Squires. ]
+In order to demonstrate the effect of how close you are to your server, however, we are going to do two short jams, one on my private server and one on the publicly available servers, hosted somewhere in the US. This will also demonstrate how to disable the above audio processing.
 
 ## Audio only platforms
 
