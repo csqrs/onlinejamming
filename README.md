@@ -46,7 +46,13 @@ This is an open source platform that is very easy to use, for participants, as w
 
 One of the rules of both latency and audio quality is, the more bandwidth you have the better. In fact it's often said that it's not worth trying to do this over WiFi, for example. But the Opus codec is capable of incredibly powerful adaptive encoding, which means that on the fly, it adjusts the quality of the audio stream (kb/s) seamlessly, and independently for each participant. We have done some jams where at least one of the participants was on WiFi and it was fine.
 
-In order to demonstrate the effect of how close you are to your server, however, we are going to do two short jams, one on my private server and one on the publicly available servers, hosted somewhere in the US. This will also demonstrate how to disable the above audio processing.
+In order to demonstrate the effect of how close you are to your server, however, we are going to do three short jams, one on my private server, which has the processing turned off by default, and two on the publicly available servers, hosted somewhere in the US, one with the default processing enabled and then with it disabled. This will also demonstrate how to disable the above audio processing in Jitsi.
+
+[ How to disable audio processing in Jitsi ](https://community.jitsi.org/t/higher-audio-quality/31441)
+
+Create a meeting as usual, but copy and paste the following after the name of the meeting, in the box, before you activate it:
+
+`#config.p2p.enabled=false&config.disableAP=true&config.disableAEC=true&config.disableNS=true&config.disableAGC=true&config.disableHPF=true&config.stereo=true`
 
 ## Audio only platforms
 
