@@ -48,14 +48,71 @@ One of the rules of both latency and audio quality is, the more bandwidth you ha
 
 In order to demonstrate the effect of how close you are to your server, however, we are going to do three short jams, one on my private server, which has the processing turned off by default, and two on the publicly available servers, hosted somewhere in the US, one with the default processing enabled and then with it disabled. This will also demonstrate how to disable the above audio processing in Jitsi.
 
-[ How to disable audio processing in Jitsi ](https://community.jitsi.org/t/higher-audio-quality/31441)
+NOTE: almost none of these platforms have mixing facilities. That is, there is no way, e.g., for one of the participants to have control over the audio levels of the other particpants. Jack Trip is a huge and notable exception to this. More on that shortly. But this lack means all participants must:
 
-Create a meeting as usual, but copy and paste the following after the name of the meeting, in the box, before you activate it:
+* be able to hear themselves in the application audio, not just physically (headphones)
+* listen and adjust their own volume so that they can hear everyone
+
+[ How to disable audio processing in Jitsi (from April 2020) ](https://community.jitsi.org/t/higher-audio-quality/31441)
+
+Create a meeting, but copy and paste the following after the name of the meeting:
 
 `#config.p2p.enabled=false&config.disableAP=true&config.disableAEC=true&config.disableNS=true&config.disableAGC=true&config.disableHPF=true&config.stereo=true`
 
+Note: you cannot type this into the meeting creation box. It won't let you. So you have to put the whole string in the URL box:
+
+`https://meet.jit.si/ThisIsMyCoolMusicMeeting#config.p2p.enabled=false&config.disableAP=true&config.disableAEC=true&config.disableNS=true&config.disableAGC=true&config.disableHPF=true&config.stereo=true`
+
+It's a bit awkward, but it works. On my server I disable all these in the server configuration file, a copy of which is available in the Jitsi directory of this repository.
+
+Recording what you do in Jitsi is complicated. I don't run the standard recording facility. I do enable the 'local recording' feature, which allows recorging at the site of each participant, just the sound of that participant. You then have to get those files in one place. But they are in sync, so you can mix after the fact. What we do these days is run [ OBS ](https://obsproject.com/) and record only. The results are remarkably good!
+
+### Zoom
+
+This is a comercial package/platform, though it has a generous free layer too. Ellen uses this alot for her online jamming. So she is going to lead us in this example meeing.
+
+When I started researching how to do this back in March/April 2020, Zoom was the only widely available teleconference package that had the ability to turn off audio processing easily, which made it very popular. The company has responded very well to this, and has enhanced this aspect of the software considerably.
+
 ## Audio only platforms
 
+### Jack Trip
+
+This is the grand daddy of online music making. It is an amazing platform, coming out of CCRMA at Stanford, and has been on the go for years. However, it is not easy to set up and does require significant bandwidth, e.g. institutional grade.
+
+* peer to peer
+* full 'CD' quality audio
+
+When I started researching this in the Spring of 2020, this was still true. However, very recently a project has emerged whose goal is to make Jack Trip "accessible to the masses". It's still in Beta. But you should definitely keep an eye on those developments.
+
+### Mumble/Murmur
+
+This is a powerful online chat platform for gamers. It's primary purpose is to be an "back channel" for teams who are playing online games, so they can talk to each other and coordinate their activities. You know how fast things happen in games. Hence this platform is highly optimized for low latency. It uses the Opus codec and is peer to peer. I have not had a chance to realy work with this much. But it is really promising for music, if you are willing to work with audio only.
+
+### Icecast/Shoutcast
+
+If you have ever listened to online streaming radio, this is what you are using. The server hosts web links that function like pipes that stream audio from the source to the destination. In general the server does very little processing and functions mostly as a hub. The issue for using this for jamming is latency.
+
+* Get a streaming tool
+** [ Butt ](https://danielnoethen.de/butt/)
+** [ Liquid Soap ](https://www.liquidsoap.info/)
+* Set up a server ([ Icecast ](https://icecast.org/) or [ Shoutcast ](https://www.shoutcast.com/))
+* Get someone else also to set up a stream to some server, doesn't have to be the same one.
+* Open your partner's stream in your browser
+* Jam along!
+
+You can use OBS to mix multiple streams. Real radio stations do just that.
+
+The drawback: there can be several seconds, up to e.g. 15, between when you play and when the stream arrives at its destination. However, this is really the grand daddy: Michael and Mannlicher Carcano have been doing this for decades...
+
+### SuperCollider
+
+This is a computer music platform beloved of the "live coding" movement. The thing that makes it relevant here is that it has a client/server architecture. You can run a server on one machine and connect to it from other computers as clients, and these sets of instructions can be generated and mixed on the server. You aren't actually streaming audio, but instructions to the DSP engine on the server about what sound to produce.
+
 ## The takeaway
+
+* Embrace the latency!
+* Listen: make sure you can hear everyone in your headphones/speakers and adjust your own volume.
+
+Here in St. John's we haven't had much trouble with latency, using our local server. However, the lack of mixing facilites has been a challenge.
 
 ## Resources
