@@ -75,6 +75,12 @@ This is a comercial package/platform, though it has a generous free layer too. E
 
 When I started researching how to do this back in March/April 2020, Zoom was the only widely available teleconference package that had the ability to turn off audio processing easily, which made it very popular. The company has responded very well to this, and has enhanced this aspect of the software considerably.
 
+### Openvidu
+
+This is another open source WebRTC platform, from Europe. We might run a test meeting to see if we can get heavy latency. I've found some discussion about how to disable audio processing for music purposes, and the response has been "write your own javascript". So, it is possible, but they have not done it.
+
+I looked closely at this at one point, but gave up when I discovered the technical setup for running my own server wasn't compatible with the tools I wanted to use ('podman').
+
 ## Audio only platforms
 
 ### Jack Trip
