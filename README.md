@@ -53,6 +53,8 @@ NOTE: almost none of these platforms have mixing facilities. That is, there is n
 * be able to hear themselves in the application audio, not just physically (headphones)
 * listen and adjust their own volume so that they can hear everyone
 
+It is possible to do mixing in WebRTC. But nobody has done it. There's a site ([webrtcH4cKs](https://webrtchacks.com/)) where a coupld of guys publish all kinds of hacks on WebRTC, a bunch of sample/proof of concept code for a variety of things, and the roots of being able to mix are there. But someone will have to actually do it. Maybe I will some day. [ Muaz Khan](https://github.com/muaz-khan) has some amazing WebRTC coding examples, including code to mix multiple streams. This is where I would start. Yet [ more code ](https://www.webrtc-experiment.com/), from Muaz Khan. Tons and tons of it.
+
 [ How to disable audio processing in Jitsi (from April 2020) ](https://community.jitsi.org/t/higher-audio-quality/31441)
 
 Create a meeting, but copy and paste the following after the name of the meeting:
@@ -81,6 +83,7 @@ This is the grand daddy of online music making. It is an amazing platform, comin
 
 * peer to peer
 * full 'CD' quality audio
+* full mixing capabilities at each site
 
 When I started researching this in the Spring of 2020, this was still true. However, very recently a project has emerged whose goal is to make Jack Trip "accessible to the masses". It's still in Beta. But you should definitely keep an eye on those developments.
 
@@ -119,3 +122,33 @@ This is a computer music platform beloved of the "live coding" movement. The thi
 Here in St. John's we haven't had much trouble with latency, using our local server. However, the lack of mixing facilites has been a challenge.
 
 ## Resources
+
+### Advocacy and talking about it:
+
+I found a number of these in a FaceBook post of Ellen Waterman's.
+
+* [ The 25ms Project](https://25ms.org/)
+   * I found this early in the Spring and it was very inspiring. It's come a long way since then. This person is building a Raspbery PI based Jack Trip server/platform. The Jack Trip people must have noticed what he was doing, because he's now involved with them in this new project.
+* [ Notes on telematic music production ](https://docs.google.com/document/d/1YLX8NatB_Ktdr24LyVg7h_P3zwG1lh1D0A0e733mCYo/edit)
+* [ Physically distant](https://www.federicovisi.com/physically-distant-online-talks-on-telematic-performance/)
+* [ Latency Native](https://latencynative.com/)
+* [ Telematic Sonic Performance](https://thesampler.org/guest-editor/telematic-sonic-performance-part-1/)
+* [ Online Music Ensemble Research ](https://carleton.ca/music/omer/)
+   * This is Ellen Waterman's research project!!!
+
+### WebRTC and Jitsi resources:
+
+### Platforms:
+
+* The original [ Jack Trip ](https://ccrma.stanford.edu/software/jacktrip/) site.
+* [ Jamulus ](https://github.com/corrados/jamulus)
+   * Another online jamming focused platform. Also uses Opus.
+* [ Artsmesh ](https://www.artsmesh.com/)
+   * Built on Jack Trip
+* [ Jamkazam ](https://www.jamkazam.com/)
+   * Hosted service with a commercial offering.
+
+### Practicalities:
+
+* [ What is my bandwidth? ](https://whatismyipaddress.com/speed-test)
+* [ What is my IP? ] ... Just Google it.
