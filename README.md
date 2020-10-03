@@ -144,6 +144,8 @@ I found a number of these in a FaceBook post of Ellen Waterman's.
 
 ### WebRTC and Jitsi resources:
 
+See embeded links in the discussion above.
+
 ### Platforms:
 
 * The original [ Jack Trip ](https://ccrma.stanford.edu/software/jacktrip/) site.
