@@ -1,6 +1,6 @@
 # Online Jamming
 
-This is a collection of resources/information about online jamming, i.e. platforms that enable people to play music together online in "real" time. There's a list of URLs to discussions etc. as well as documentation of stuff I've done. The focus is on enabling the activity rather than further disseminating the results. However, I'll include some discussion about streaming to public platforms. I've been meaning to write some of this up for a while, but have been pushed to get started by having to come up with a workshop for [Lawnya Vawnya](https://lawnyavawnya.com/). This workshop is a co-presentation of [The Sound Symposium](https://www.soundsymposium.com/).
+This is a collection of resources/information about online jamming, i.e. platforms that enable people to play music together online in "real" time. There's a list of URLs to discussions etc. as well as documentation of stuff I've done. The focus is on enabling the activity rather than further disseminating the results. However, I'll include some discussion about streaming to public platforms. I've been meaning to write some of this up for a while, but have been pushed to get started by having to come up with a workshop for [Lawnya Vawnya](https://lawnyavawnya.com/). This workshop is a co-presentation of [The Sound Symposium](https://www.soundsymposium.com/). [The recording](https://www.youtube.com/watch?v=heYYygZdnZk).
 
 ## Platforms covered
 
