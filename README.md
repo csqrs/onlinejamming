@@ -127,6 +127,8 @@ This is a computer music platform beloved of the "live coding" movement. The thi
 
 Here in St. John's we haven't had much trouble with latency, using our local server. However, the lack of mixing facilites has been a challenge.
 
+Update, December 2020: Not long after the workshop we started to have issues with poor connectivity in Jitsi, not due to the platform but due to local internet weather. The Auks have now migrated to Mumble/Murmur, the audio only platform, running on our local server, and we are finding it excellent!
+
 ## Resources
 
 ### Advocacy and talking about it:
@@ -141,6 +143,8 @@ I found a number of these in a FaceBook post of Ellen Waterman's.
 * [ Telematic Sonic Performance](https://thesampler.org/guest-editor/telematic-sonic-performance-part-1/)
 * [ Online Music Ensemble Research ](https://carleton.ca/music/omer/)
    * This is Ellen Waterman's research project!!!
+* [ Now Net Arts ](https://nownetarts.org)
+   * Recommended by Ellen
 
 ### WebRTC and Jitsi resources:
 
